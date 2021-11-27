@@ -15,10 +15,13 @@ const errorHandler = require("./libs/errorHandler");
 dbPort = config.db.port;
 dbHost = config.db.host;
 dbName = config.db.name;
+dbURL = config.url.mongo_connect;
 
 passport.use(authJWT);
 mongoose
-  .connect(`mongodb://${dbHost}:${dbPort}/portafolio`, {})
+  // .connect(`mongodb://${dbHost}:${dbPort}/portafolio`, {})
+  //.connect(`mongodb+srv://ehuaynates:jTcadp3@portafolio.aesbz.mongodb.net/Portafolio?retryWrites=true&w=majority`, {})
+  .connect(dbURL, {})
   .then(console.log(`Connected to MongoDB at port ${dbPort}`));
 
 mongoose.connection.on("error", () => {
