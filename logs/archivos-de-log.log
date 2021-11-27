@@ -3030,3 +3030,9 @@ info: 2021-11-27T00:58:06.271Z Usuario [MrEH] suministro un token valido.
 info: 2021-11-27T00:58:06.298Z ::ffff:127.0.0.1 - GET /api/user/whoami HTTP/1.1 304 - - 206.651 ms
 info: 2021-11-27T00:58:06.578Z ::ffff:127.0.0.1 - GET /api/entitie/ HTTP/1.1 201 1683 - 241.257 ms
 info: 2021-11-27T00:58:06.766Z ::ffff:127.0.0.1 - GET /api/entitie/ HTTP/1.1 201 1683 - 175.692 ms
+info: 2021-11-27T00:58:31.264Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2021-11-27T00:58:31.290Z ::ffff:127.0.0.1 - GET /api/user/whoami HTTP/1.1 304 - - 332.835 ms
+info: 2021-11-27T00:58:31.667Z ::ffff:127.0.0.1 - GET /api/entitie/ HTTP/1.1 201 1683 - 349.803 ms
+info: 2021-11-27T00:58:31.958Z ::ffff:127.0.0.1 - GET /api/entitie/ HTTP/1.1 201 1683 - 273.664 ms
+info: 2021-11-27T00:58:35.007Z ::ffff:127.0.0.1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 255 - 243.203 ms
