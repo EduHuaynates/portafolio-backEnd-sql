@@ -8,11 +8,11 @@ const handleError = require("../../libs/errorHandler").handleError;
 const log = require("../../utils/logger");
 const config = require("../../config");
 const { UsersCredencialsInUse, IncorrectCredencials } = require("./user.error");
-
 const jwtAuthenticate = passport.authenticate("jwt", { session: false });
 
+
 userRouter.get("/whoami", [jwtAuthenticate], (req, res) => {
-  // console.log("whoami?", req.user);
+  console.log("whoami?", req.user);
   res.send(hideUserFields(req.user));
   // res.send('Holaaaaa')
 });

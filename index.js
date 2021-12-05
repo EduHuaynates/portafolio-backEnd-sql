@@ -6,6 +6,7 @@ const app = express();
 const UserRouter = require("./sources/users/user.routes");
 const InvestRouter = require("./sources/investment/invest.routes");
 const EntitieRouter = require("./sources/entities/entitie.routes");
+const PostRouter = require("./sources/posts/post.routes");
 const logger = require("./utils/logger");
 const morgan = require("morgan");
 const passport = require("passport");
@@ -19,9 +20,9 @@ dbURL = config.url.mongo_connect;
 
 passport.use(authJWT);
 mongoose
-  // .connect(`mongodb://${dbHost}:${dbPort}/portafolio`, {})
+  .connect(`mongodb://${dbHost}:${dbPort}/portafolio`, {})
   //.connect(`mongodb+srv://ehuaynates:jTcadp3@portafolio.aesbz.mongodb.net/Portafolio?retryWrites=true&w=majority`, {})
-  .connect(dbURL, {})
+  // .connect(dbURL, {})
   .then(console.log(`Connected to MongoDB at port ${dbPort}`));
 
 mongoose.connection.on("error", () => {
@@ -42,6 +43,8 @@ app.use(express.json());
 app.use("/api/user", UserRouter);
 app.use("/api/invest", InvestRouter);
 app.use("/api/entitie", EntitieRouter);
+app.use("/api/post", PostRouter);
+
 app.use(errorHandler.handleDBError);
 
 app.use(errorHandler.erroresEnProducción);
