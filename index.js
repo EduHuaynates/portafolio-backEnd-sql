@@ -7,6 +7,7 @@ const UserRouter = require("./sources/users/user.routes");
 const InvestRouter = require("./sources/investment/invest.routes");
 const EntitieRouter = require("./sources/entities/entitie.routes");
 const PostRouter = require("./sources/posts/post.routes");
+const CommentRouter = require('./sources/comments/comment.routes');
 const logger = require("./utils/logger");
 const morgan = require("morgan");
 const passport = require("passport");
@@ -44,6 +45,7 @@ app.use("/api/user", UserRouter);
 app.use("/api/invest", InvestRouter);
 app.use("/api/entitie", EntitieRouter);
 app.use("/api/post", PostRouter);
+app.use("/api/comment", CommentRouter);
 
 app.use(errorHandler.handleDBError);
 
