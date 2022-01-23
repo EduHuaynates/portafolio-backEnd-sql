@@ -3,11 +3,15 @@ require("dotenv").config();
 const config = require("./config");
 const mongoose = require("mongoose");
 const app = express();
+
+//ROUTES
 const UserRouter = require("./sources/users/user.routes");
 const InvestRouter = require("./sources/investment/invest.routes");
 const EntitieRouter = require("./sources/entities/entitie.routes");
 const PostRouter = require("./sources/posts/post.routes");
-const CommentRouter = require('./sources/comments/comment.routes');
+const CommentRouter = require("./sources/comments/comment.routes");
+const ProjectRouter = require("./sources/projects/project.routes");
+
 const logger = require("./utils/logger");
 const morgan = require("morgan");
 const passport = require("passport");
@@ -21,9 +25,9 @@ dbURL = config.url.mongo_connect;
 
 passport.use(authJWT);
 mongoose
-  .connect(`mongodb://${dbHost}:${dbPort}/portafolio`, {})
+  //.connect(`mongodb://${dbHost}:${dbPort}/portafolio`, {})
   //.connect(`mongodb+srv://ehuaynates:jTcadp3@portafolio.aesbz.mongodb.net/Portafolio?retryWrites=true&w=majority`, {})
-  // .connect(dbURL, {})
+  .connect(dbURL, {})
   .then(console.log(`Connected to MongoDB at port ${dbPort}`));
 
 mongoose.connection.on("error", () => {
@@ -46,6 +50,7 @@ app.use("/api/invest", InvestRouter);
 app.use("/api/entitie", EntitieRouter);
 app.use("/api/post", PostRouter);
 app.use("/api/comment", CommentRouter);
+app.use("/api/project", ProjectRouter);
 
 app.use(errorHandler.handleDBError);
 
@@ -53,5 +58,5 @@ app.use(errorHandler.erroresEnProducción);
 // app.use(errorHandler.erroresEnDesarrollo);
 
 app.listen(3001, () => {
-  console.log("Servidor corriendo en el perto 3k");
+  console.log("Servidor corriendo en el puerto 3k");
 });

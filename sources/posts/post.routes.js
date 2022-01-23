@@ -7,6 +7,7 @@ const jwtAuthenticate = passport.authenticate("jwt", { session: false });
 
 postRouter.post(
   "/",
+  [jwtAuthenticate],
   handleError((req, res) => {
     return postController.createPost(req.body).then((newPost) => {
       res.status(201).json(newPost);
@@ -16,7 +17,7 @@ postRouter.post(
 
 postRouter.get(
   "/:id",
-  //   [jwtAuthenticate],
+    [jwtAuthenticate],
   handleError((req, res) => {
     console.log(req.params, "params");
     return postController.getPosts(req.params.id).then((posts) => {

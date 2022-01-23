@@ -1,37 +1,36 @@
 const mongoose = require("mongoose");
 const ObjectId = mongoose.Schema.Types.ObjectId;
 
-const entitieSchema = new mongoose.Schema(
+const projectSchema = new mongoose.Schema(
   {
-    Logo: {
-      type: String,
-    },
-    Empresa: {
+    empresa: {
       type: String,
       //   required: true,
     },
-    TipoInversion: {
+    retornoInteres: {
       type: String,
       //   required: true,
     },
-    Barrera: {
+    retornoCapital: {
+      type: String,
+      //   required: true,
+    },
+    t_anual: {
       type: Number,
       //   required: true,
     },
-    Contacto: {
-      type: [Object],
+    periodo: {
+      type: Number,
       //   required: true,
     },
-    Notaria: {
-      type: String,
-      //   required: true,
-    },
-    FirmaDigital: {
-      type: Boolean,
-    },
-    user: {
+
+    entitie: {
       type: ObjectId,
       //   required: true,
+    },
+    estado: {
+      type: Boolean,
+      default: true,
     },
   },
   {
@@ -39,4 +38,4 @@ const entitieSchema = new mongoose.Schema(
   }
 );
 
-module.exports = mongoose.model("entitie", entitieSchema);
+module.exports = mongoose.model("projects", projectSchema);

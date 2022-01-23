@@ -19,6 +19,7 @@ userRouter.get("/whoami", [jwtAuthenticate], (req, res) => {
 
 userRouter.post(
   "/register",
+  [jwtAuthenticate],
   handleError((req, res) => {
     let newUser = req.body;
     return userController
@@ -45,6 +46,7 @@ userRouter.post(
 
 userRouter.post(
   "/login",
+  [jwtAuthenticate],
   handleError(async (req, res) => {
     let userNotAuthenticated = req.body;
     // console.log(userNotAuthenticated);

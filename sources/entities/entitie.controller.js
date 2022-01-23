@@ -6,6 +6,10 @@ function createEntitie(entitie) {
   }).save();
 }
 
+function getEntitieToOwner(user) {
+  return Entitie.find({ user });
+}
+
 function getSimilarEntities(TipoInversion, id) {
   return Entitie.find({ TipoInversion, _id: { $ne: id } });
 }
@@ -29,6 +33,7 @@ function updateEntitie(entitieId, fields) {
 }
 module.exports = {
   createEntitie,
+  getEntitieToOwner,
   getEntitie,
   updateEntitie,
   getSingleEntitie,

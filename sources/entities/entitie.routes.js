@@ -9,6 +9,7 @@ const jwtAuthenticate = passport.authenticate("jwt", { session: false });
 
 entitieRouter.put(
   "/:id",
+  [jwtAuthenticate],
   handleError((req, res) => {
     // const { _id, ...others } = req.body;
     console.log(req.body, "put log");
@@ -34,6 +35,19 @@ entitieRouter.get(
 );
 
 entitieRouter.get(
+  "/mantein/:userId",
+  [jwtAuthenticate],
+  handleError((req, res) => {
+    // console.log(req.params.id, "Error en entidad");
+    return entitieController
+      .getEntitieToOwner(req.params.userId)
+      .then((entitieToOwner) => {
+        res.status(201).json(entitieToOwner);
+      });
+  })
+);
+
+entitieRouter.get(
   "/similar/:id",
   [jwtAuthenticate],
   handleError((req, res) => {
@@ -47,9 +61,10 @@ entitieRouter.get(
 );
 
 entitieRouter.get(
-  "/filter",  
+  "/filter",
+  [jwtAuthenticate],
   handleError((req, res) => {
-    console.log(req.query,'Tipo Env');
+    console.log(req.query, "Tipo Env");
     return entitieController
       .getFilteredEntities(req.query.TipoInversion)
       .then((singleEntitie) => {
@@ -60,8 +75,9 @@ entitieRouter.get(
 
 entitieRouter.post(
   "/",
+  [jwtAuthenticate],
   handleError((req, res) => {
-    console.log(req.body);
+    console.log(req.body, "body of new Entitie");
     return entitieController.createEntitie(req.body).then((post) => {
       res.status(201).json(post);
     });
@@ -70,6 +86,7 @@ entitieRouter.post(
 
 entitieRouter.get(
   "/",
+  [jwtAuthenticate],
   handleError((req, res) => {
     // console.log(req.query.user,'params');
     return entitieController.getEntitie().then((ents) => {
