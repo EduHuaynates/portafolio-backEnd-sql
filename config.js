@@ -2,7 +2,7 @@ const env = process.env.NODE_ENV;
 
 const dev = {
   app: {
-    port: process.env.DEV_APP_PORT || 3000,
+    port: process.env.PORT || 3000,
   },
   server: {
     port: process.env.DEV_SERVER_PORT || 3001,
