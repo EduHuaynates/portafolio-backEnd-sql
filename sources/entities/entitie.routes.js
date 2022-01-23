@@ -1,4 +1,4 @@
-const entitieController = require("./Entitie.controller");
+const entitieController = require("./entitie.controller");
 const express = require("express");
 const entitieRouter = express.Router();
 const handleError = require("../../libs/errorHandler").handleError;
