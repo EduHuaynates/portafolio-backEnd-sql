@@ -58,6 +58,6 @@ app.use(errorHandler.handleDBError);
 app.use(errorHandler.erroresEnProducción);
 // app.use(errorHandler.erroresEnDesarrollo);
 
-app.listen(appURL || 3001, () => {
+app.listen(process.env.PORT || 3001, () => {
   console.log("Servidor corriendo en el puerto 3k");
 });
