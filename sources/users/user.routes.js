@@ -10,7 +10,6 @@ const config = require("../../config");
 const { UsersCredencialsInUse, IncorrectCredencials } = require("./user.error");
 const jwtAuthenticate = passport.authenticate("jwt", { session: false });
 
-
 userRouter.get("/whoami", [jwtAuthenticate], (req, res) => {
   console.log("whoami?", req.user);
   res.send(hideUserFields(req.user));
@@ -19,7 +18,7 @@ userRouter.get("/whoami", [jwtAuthenticate], (req, res) => {
 
 userRouter.post(
   "/register",
-  [jwtAuthenticate],
+  // [jwtAuthenticate],
   handleError((req, res) => {
     let newUser = req.body;
     return userController
@@ -46,7 +45,7 @@ userRouter.post(
 
 userRouter.post(
   "/login",
-  [jwtAuthenticate],
+  // [jwtAuthenticate],
   handleError(async (req, res) => {
     let userNotAuthenticated = req.body;
     // console.log(userNotAuthenticated);
