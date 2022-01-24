@@ -1,11 +1,11 @@
-const env = process.env.NODE_ENV;
+const env = process.envPORT.NODE_ENV;
 
 const dev = {
   app: {
-    port: process.env.PORT || 3000,
+    port: process.env.DEV_APP_PORT || 3000,
   },
   server: {
-    port: process.env.DEV_SERVER_PORT || 3001,
+    port: process.env.PORT || 3001,
   },
   db: {
     host: process.env.DEV_DB_HOST || "localhost",

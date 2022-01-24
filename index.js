@@ -22,6 +22,7 @@ dbPort = config.db.port;
 dbHost = config.db.host;
 dbName = config.db.name;
 dbURL = config.url.mongo_connect;
+appURL = config.server.port;
 
 passport.use(authJWT);
 mongoose
@@ -57,6 +58,6 @@ app.use(errorHandler.handleDBError);
 app.use(errorHandler.erroresEnProducción);
 // app.use(errorHandler.erroresEnDesarrollo);
 
-app.listen(3001, () => {
+app.listen(appURL || 3001, () => {
   console.log("Servidor corriendo en el puerto 3k");
 });
