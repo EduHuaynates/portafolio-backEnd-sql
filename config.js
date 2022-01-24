@@ -1,4 +1,4 @@
-const env = process.envPORT.NODE_ENV;
+const env = process.env.NODE_ENV;
 
 const dev = {
   app: {
