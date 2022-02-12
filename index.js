@@ -2,6 +2,7 @@ const express = require("express");
 require("dotenv").config();
 const config = require("./config");
 const mongoose = require("mongoose");
+const cors = require("cors");
 const app = express();
 
 //ROUTES
@@ -18,6 +19,7 @@ const passport = require("passport");
 const authJWT = require("./libs/auth");
 const errorHandler = require("./libs/errorHandler");
 
+app.use(cors());
 dbPort = config.db.port;
 dbHost = config.db.host;
 dbName = config.db.name;
