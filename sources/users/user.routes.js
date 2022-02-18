@@ -16,6 +16,18 @@ userRouter.get("/whoami", [jwtAuthenticate], (req, res) => {
   // res.send('Holaaaaa')
 });
 
+userRouter.put(
+  "/profile/:userId",
+  [jwtAuthenticate],
+  handleError((req, res) => {
+    return userController
+      .updateUser(req.params.userId, req.body)
+      .then((userUpdated) => {
+        res.status(201).json(userUpdated);
+      });
+  })
+);
+
 userRouter.post(
   "/register",
   // [jwtAuthenticate],
@@ -91,7 +103,7 @@ function hideUserFields(user) {
     _id: user.id || user._id,
     email: user.email,
     username: user.username,
-    investors: user.investors
+    investors: user.investors,
   };
 }
 module.exports = userRouter;

@@ -21,7 +21,6 @@ function userExists(username) {
   });
 }
 
-
 function getSingleUser({ username: username, email: email, id: id }) {
   if (username) {
     return getUserByQuery({ username: username });
@@ -36,6 +35,11 @@ function getSingleUser({ username: username, email: email, id: id }) {
   }
 }
 
+function updateUser(userId, fields) {
+  return Usuario.findByIdAndUpdate(userId, {
+    ...fields,
+  });
+}
 
 async function getUserByQuery(query) {
   const user = await Usuario.findOne(query);
@@ -46,5 +50,6 @@ module.exports = {
   createUser,
   userExists,
   getSingleUser,
-  getUserByQuery
+  getUserByQuery,
+  updateUser,
 };
