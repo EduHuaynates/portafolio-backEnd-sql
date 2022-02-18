@@ -91,6 +91,7 @@ function hideUserFields(user) {
     _id: user.id || user._id,
     email: user.email,
     username: user.username,
+    investors: user.investors
   };
 }
 module.exports = userRouter;

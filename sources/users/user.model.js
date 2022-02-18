@@ -6,9 +6,18 @@ const userSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    email:{
+    email: {
       type: String,
       required: true,
+    },
+    investors: {
+      type: [String],
+      required: false,
+      default: ["Owner"],
+    },
+    profile: {
+      type: String,
+      default: "user",
     },
     password: {
       type: String,
@@ -16,7 +25,7 @@ const userSchema = new mongoose.Schema(
     },
   },
   {
-    timestamps: { createdAt : "createdAt", updatedAt : "updatedAt" },
+    timestamps: { createdAt: "createdAt", updatedAt: "updatedAt" },
   }
 );
 
