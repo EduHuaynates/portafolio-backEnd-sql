@@ -17874,3 +17874,1090 @@ info: 2022-02-18T04:24:42.611Z ::1 - GET /api/user/whoami HTTP/1.1 200 104 - 286
 info: 2022-02-18T04:26:40.931Z ::1 - PUT /api/user/profile/6207ce60caf556fe9f6050d4 HTTP/1.1 404 180 - 36.901 ms
 info: 2022-02-18T04:27:18.441Z ::1 - PUT /api/user/profile/6207ce60caf556fe9f6050d4 HTTP/1.1 201 281 - 5837.414 ms
 info: 2022-02-18T04:28:03.341Z ::1 - PUT /api/user/profile/6207ce60caf556fe9f6050d4 HTTP/1.1 201 287 - 273.976 ms
+info: 2022-02-18T04:37:09.132Z Usuario [eh2] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T04:37:09.472Z ::1 - PUT /api/user/profile/6207ce60caf556fe9f6050d4 HTTP/1.1 201 281 - 598.313 ms
+info: 2022-02-18T04:49:10.346Z Usuario [eh2] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T04:49:10.361Z ::1 - GET /api/user/whoami HTTP/1.1 200 113 - 210.437 ms
+info: 2022-02-18T04:49:26.261Z Usuario [eh2] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T04:49:29.120Z ::1 - PUT /api/user/profile/6207ce60caf556fe9f6050d4 HTTP/1.1 201 290 - 3134.750 ms
+info: 2022-02-18T04:51:09.567Z Usuario [eh2] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T04:51:09.846Z ::1 - PUT /api/user/profile/6207ce60caf556fe9f6050d4 HTTP/1.1 201 290 - 526.797 ms
+info: 2022-02-18T04:51:41.487Z Usuario [eh2] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T04:51:41.700Z ::1 - PUT /api/user/profile/6207ce60caf556fe9f6050d4 HTTP/1.1 201 290 - 449.774 ms
+info: 2022-02-18T05:04:42.870Z Usuario [eh2] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T05:04:42.885Z Usuario [eh2] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T05:04:43.066Z ::1 - GET /api/invest/totales/6207ce60caf556fe9f6050d4 HTTP/1.1 201 2 - 362.235 ms
+info: 2022-02-18T05:04:43.071Z ::1 - GET /api/invest?user=6207ce60caf556fe9f6050d4 HTTP/1.1 201 2 - 371.332 ms
+info: 2022-02-18T20:24:41.733Z ::1 - GET /api/user/whoami HTTP/1.1 - - - - ms
+info: 2022-02-18T20:24:42.663Z Usuario [eh2] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T20:24:42.724Z Usuario [eh2] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T20:24:42.732Z ::1 - GET /api/user/whoami HTTP/1.1 200 119 - 791.223 ms
+info: 2022-02-18T20:24:43.004Z Usuario [eh2] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T20:24:43.030Z Usuario [eh2] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T20:24:43.217Z ::1 - GET /api/invest/totales/6207ce60caf556fe9f6050d4 HTTP/1.1 201 2 - 430.341 ms
+info: 2022-02-18T20:24:43.310Z ::1 - GET /api/invest?user=6207ce60caf556fe9f6050d4 HTTP/1.1 201 2 - 528.620 ms
+info: 2022-02-18T20:26:22.313Z Usuario [eh2] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T20:26:22.317Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 321.476 ms
+info: 2022-02-18T20:26:26.427Z Usuario [eh2] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T20:26:26.438Z Usuario [eh2] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T20:26:26.605Z ::1 - GET /api/invest/totales/6207ce60caf556fe9f6050d4 HTTP/1.1 201 2 - 439.435 ms
+info: 2022-02-18T20:26:26.693Z ::1 - GET /api/invest?user=6207ce60caf556fe9f6050d4 HTTP/1.1 201 2 - 528.597 ms
+info: 2022-02-18T20:29:53.500Z Usuario [eh2] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T20:29:53.562Z Usuario [eh2] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T20:29:53.674Z ::1 - GET /api/invest/totales/6207ce60caf556fe9f6050d4 HTTP/1.1 201 2 - 344.975 ms
+info: 2022-02-18T20:29:53.805Z ::1 - GET /api/invest?user=6207ce60caf556fe9f6050d4 HTTP/1.1 201 2 - 477.633 ms
+info: 2022-02-18T20:30:30.807Z Usuario [eh2] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T20:30:31.067Z ::1 - GET /api/entitie/ HTTP/1.1 201 6387 - 494.842 ms
+info: 2022-02-18T20:30:32.105Z Usuario [eh2] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T20:30:32.180Z Usuario [eh2] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T20:30:32.277Z ::1 - GET /api/invest/totales/6207ce60caf556fe9f6050d4 HTTP/1.1 201 2 - 347.671 ms
+info: 2022-02-18T20:30:32.438Z ::1 - GET /api/invest?user=6207ce60caf556fe9f6050d4 HTTP/1.1 201 2 - 512.181 ms
+info: 2022-02-18T20:44:02.155Z Usuario [eh2] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T20:44:02.164Z Usuario [eh2] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T20:44:02.343Z ::1 - GET /api/invest?user=6207ce60caf556fe9f6050d4 HTTP/1.1 201 2 - 387.261 ms
+info: 2022-02-18T20:44:02.348Z ::1 - GET /api/invest/totales/6207ce60caf556fe9f6050d4 HTTP/1.1 201 2 - 367.991 ms
+info: 2022-02-18T20:44:19.509Z Usuario con Email ehuaynates@gmail.com. Autenticacion correcta
+info: 2022-02-18T20:44:19.510Z ::1 - POST /api/user/login HTTP/1.1 200 296 - 261.209 ms
+info: 2022-02-18T20:44:19.693Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T20:44:19.701Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T20:44:19.877Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 353.924 ms
+info: 2022-02-18T20:44:19.883Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 357.653 ms
+info: 2022-02-18T20:44:29.141Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T20:44:29.147Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T20:44:29.315Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 340.229 ms
+info: 2022-02-18T20:44:29.321Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 343.442 ms
+info: 2022-02-18T20:44:56.970Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T20:44:56.978Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T20:44:57.152Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 372.393 ms
+info: 2022-02-18T20:44:57.157Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 373.833 ms
+info: 2022-02-18T20:52:21.049Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T20:52:21.059Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T20:52:21.300Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 419.872 ms
+info: 2022-02-18T20:52:21.307Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 424.714 ms
+info: 2022-02-18T20:55:03.835Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T20:55:03.844Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T20:55:04.128Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 456.602 ms
+info: 2022-02-18T20:55:04.135Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 461.549 ms
+info: 2022-02-18T20:55:14.342Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T20:55:14.563Z ::1 - PUT /api/user/profile/61a1766b9bc5ff6327538833 HTTP/1.1 201 282 - 483.908 ms
+info: 2022-02-18T20:55:18.865Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T20:55:18.874Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T20:55:19.047Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 346.268 ms
+info: 2022-02-18T20:55:19.054Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 351.050 ms
+info: 2022-02-18T20:55:23.143Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T20:55:23.148Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T20:55:23.320Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 341.711 ms
+info: 2022-02-18T20:55:23.324Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 345.363 ms
+info: 2022-02-18T21:02:10.767Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:02:10.775Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:02:10.952Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 349.979 ms
+info: 2022-02-18T21:02:10.957Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 354.252 ms
+info: 2022-02-18T21:02:15.977Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:02:15.983Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:02:16.162Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 346.119 ms
+info: 2022-02-18T21:02:16.168Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 351.400 ms
+info: 2022-02-18T21:05:53.406Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:05:53.412Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:05:53.578Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 339.957 ms
+info: 2022-02-18T21:05:53.596Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 359.876 ms
+info: 2022-02-18T21:08:57.465Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:08:57.485Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:08:57.666Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 364.007 ms
+info: 2022-02-18T21:08:57.673Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 367.129 ms
+info: 2022-02-18T21:13:29.253Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:13:29.257Z ::1 - GET /api/user/whoami HTTP/1.1 200 111 - 189.150 ms
+info: 2022-02-18T21:13:29.479Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:13:29.481Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:13:29.661Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 366.779 ms
+info: 2022-02-18T21:13:29.666Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 369.289 ms
+info: 2022-02-18T21:22:30.460Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:22:30.465Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:22:30.726Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 431.004 ms
+info: 2022-02-18T21:22:30.729Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 432.680 ms
+info: 2022-02-18T21:22:37.377Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:22:37.382Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:22:37.597Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 430.226 ms
+info: 2022-02-18T21:22:37.601Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 434.374 ms
+info: 2022-02-18T21:58:56.502Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:58:56.510Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 168.106 ms
+info: 2022-02-18T21:58:56.514Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:58:56.517Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:58:56.702Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 363.350 ms
+info: 2022-02-18T21:58:56.707Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 366.192 ms
+info: 2022-02-18T21:58:56.718Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:58:56.727Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 194.630 ms
+info: 2022-02-18T21:58:56.875Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:58:56.896Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:58:56.921Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:58:56.934Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 183.454 ms
+info: 2022-02-18T21:58:57.042Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 330.118 ms
+info: 2022-02-18T21:58:57.061Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 330.775 ms
+info: 2022-02-18T21:58:57.124Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:58:57.129Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 170.591 ms
+info: 2022-02-18T21:58:57.207Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:58:57.228Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:58:57.318Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:58:57.322Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 176.194 ms
+info: 2022-02-18T21:58:57.375Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 330.298 ms
+info: 2022-02-18T21:58:57.399Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 336.453 ms
+info: 2022-02-18T21:58:57.527Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:58:57.534Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 170.167 ms
+info: 2022-02-18T21:58:57.537Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:58:57.577Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:58:57.702Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 326.084 ms
+info: 2022-02-18T21:58:57.755Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:58:57.769Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 194.802 ms
+info: 2022-02-18T21:58:57.772Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 359.173 ms
+info: 2022-02-18T21:58:57.884Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:58:57.971Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:58:57.999Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:58:58.004Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 168.755 ms
+info: 2022-02-18T21:58:58.085Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 372.857 ms
+info: 2022-02-18T21:58:58.136Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 331.718 ms
+info: 2022-02-18T21:58:58.183Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:58:58.186Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 165.337 ms
+info: 2022-02-18T21:58:58.250Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:58:58.302Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:58:58.377Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:58:58.382Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 177.763 ms
+info: 2022-02-18T21:58:58.421Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 334.002 ms
+info: 2022-02-18T21:58:58.468Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 329.241 ms
+info: 2022-02-18T21:58:58.560Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:58:58.563Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 171.788 ms
+info: 2022-02-18T21:58:58.581Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:58:58.635Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:58:58.733Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:58:58.735Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 163.880 ms
+info: 2022-02-18T21:58:58.747Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 324.484 ms
+info: 2022-02-18T21:58:58.806Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 335.866 ms
+info: 2022-02-18T21:58:58.903Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:58:58.913Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:58:58.916Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 171.827 ms
+info: 2022-02-18T21:58:58.983Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:58:59.072Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 323.134 ms
+info: 2022-02-18T21:58:59.115Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:58:59.118Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 190.448 ms
+info: 2022-02-18T21:58:59.147Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 337.659 ms
+info: 2022-02-18T21:58:59.232Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:58:59.304Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:58:59.307Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 176.820 ms
+info: 2022-02-18T21:58:59.337Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:58:59.391Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 317.442 ms
+info: 2022-02-18T21:58:59.480Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:58:59.483Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 166.213 ms
+info: 2022-02-18T21:58:59.502Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 353.268 ms
+info: 2022-02-18T21:58:59.552Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:58:59.666Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:58:59.668Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 167.769 ms
+info: 2022-02-18T21:58:59.672Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:58:59.717Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 324.321 ms
+info: 2022-02-18T21:58:59.834Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 330.465 ms
+info: 2022-02-18T21:58:59.873Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:58:59.875Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 196.868 ms
+info: 2022-02-18T21:58:59.877Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:00.002Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:00.045Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 326.487 ms
+info: 2022-02-18T21:59:00.054Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:00.056Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 171.184 ms
+info: 2022-02-18T21:59:00.166Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 330.343 ms
+info: 2022-02-18T21:59:00.208Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:00.229Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:00.232Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 166.490 ms
+info: 2022-02-18T21:59:00.328Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:00.373Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 326.737 ms
+info: 2022-02-18T21:59:00.424Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:00.430Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 189.083 ms
+info: 2022-02-18T21:59:00.525Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 338.324 ms
+info: 2022-02-18T21:59:00.543Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:00.708Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 331.876 ms
+info: 2022-02-18T21:59:00.715Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:00.718Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:00.721Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 172.983 ms
+info: 2022-02-18T21:59:00.867Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:00.883Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 344.638 ms
+info: 2022-02-18T21:59:00.905Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:00.909Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 171.372 ms
+info: 2022-02-18T21:59:01.036Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 325.573 ms
+info: 2022-02-18T21:59:01.050Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:01.082Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:01.085Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 162.653 ms
+info: 2022-02-18T21:59:01.201Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:01.232Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 347.873 ms
+info: 2022-02-18T21:59:01.293Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:01.297Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 171.999 ms
+info: 2022-02-18T21:59:01.377Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 335.856 ms
+info: 2022-02-18T21:59:01.407Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:01.477Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:01.479Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 167.223 ms
+info: 2022-02-18T21:59:01.540Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:01.577Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 342.811 ms
+info: 2022-02-18T21:59:01.674Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:01.680Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 190.272 ms
+info: 2022-02-18T21:59:01.706Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 325.145 ms
+info: 2022-02-18T21:59:01.763Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:01.880Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:01.884Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 176.311 ms
+info: 2022-02-18T21:59:01.886Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:01.942Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 361.084 ms
+info: 2022-02-18T21:59:02.064Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 352.810 ms
+info: 2022-02-18T21:59:02.115Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:02.125Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:02.132Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 173.546 ms
+info: 2022-02-18T21:59:02.230Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:02.282Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 337.654 ms
+info: 2022-02-18T21:59:02.321Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:02.330Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 166.166 ms
+info: 2022-02-18T21:59:02.398Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 330.911 ms
+info: 2022-02-18T21:59:02.451Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:02.512Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:02.515Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 160.493 ms
+info: 2022-02-18T21:59:02.564Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:02.615Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 329.862 ms
+info: 2022-02-18T21:59:02.687Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:02.690Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 159.937 ms
+info: 2022-02-18T21:59:02.733Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 333.894 ms
+info: 2022-02-18T21:59:02.783Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:02.858Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:02.861Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 160.041 ms
+info: 2022-02-18T21:59:02.900Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:02.949Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 331.936 ms
+info: 2022-02-18T21:59:03.041Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:03.044Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 171.246 ms
+info: 2022-02-18T21:59:03.067Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 332.421 ms
+info: 2022-02-18T21:59:03.115Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:03.220Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:03.222Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 160.121 ms
+info: 2022-02-18T21:59:03.237Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:03.297Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 341.118 ms
+info: 2022-02-18T21:59:03.433Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:03.436Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 202.350 ms
+info: 2022-02-18T21:59:03.444Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 374.640 ms
+info: 2022-02-18T21:59:03.511Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:03.612Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:03.631Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:03.634Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 171.643 ms
+info: 2022-02-18T21:59:03.683Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 354.227 ms
+info: 2022-02-18T21:59:03.779Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 328.816 ms
+info: 2022-02-18T21:59:03.861Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:03.946Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:04.029Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 343.509 ms
+info: 2022-02-18T21:59:04.117Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 336.134 ms
+info: 2022-02-18T21:59:04.196Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:04.292Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:04.362Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 328.440 ms
+info: 2022-02-18T21:59:04.466Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 346.585 ms
+info: 2022-02-18T21:59:04.532Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:04.635Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:04.703Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 338.051 ms
+info: 2022-02-18T21:59:04.805Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 334.685 ms
+info: 2022-02-18T21:59:04.873Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:04.970Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:05.041Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 334.734 ms
+info: 2022-02-18T21:59:05.157Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 347.976 ms
+info: 2022-02-18T21:59:05.220Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:05.327Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:05.396Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 349.242 ms
+info: 2022-02-18T21:59:05.508Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 346.274 ms
+info: 2022-02-18T21:59:05.572Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:05.719Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:05.749Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 350.376 ms
+info: 2022-02-18T21:59:05.906Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 393.784 ms
+info: 2022-02-18T21:59:05.953Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:06.111Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:06.158Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 405.892 ms
+info: 2022-02-18T21:59:06.304Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 394.330 ms
+info: 2022-02-18T21:59:06.381Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:06.497Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:06.567Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 403.382 ms
+info: 2022-02-18T21:59:06.686Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 373.449 ms
+info: 2022-02-18T21:59:06.740Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:06.860Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:06.906Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 333.170 ms
+info: 2022-02-18T21:59:07.037Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 344.540 ms
+info: 2022-02-18T21:59:07.108Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:07.232Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:07.281Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 367.296 ms
+info: 2022-02-18T21:59:07.405Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 362.627 ms
+info: 2022-02-18T21:59:07.459Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:07.580Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:07.633Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 346.620 ms
+info: 2022-02-18T21:59:07.749Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 339.632 ms
+info: 2022-02-18T21:59:07.811Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:07.918Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:07.979Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 341.949 ms
+info: 2022-02-18T21:59:08.100Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 346.521 ms
+info: 2022-02-18T21:59:08.148Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:08.269Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:08.316Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 334.391 ms
+info: 2022-02-18T21:59:08.449Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 341.805 ms
+info: 2022-02-18T21:59:08.645Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:08.826Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 366.574 ms
+info: 2022-02-18T21:59:08.860Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:08.995Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:09.037Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 717.128 ms
+info: 2022-02-18T21:59:09.212Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:09.388Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 557.444 ms
+info: 2022-02-18T21:59:09.391Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 350.053 ms
+info: 2022-02-18T21:59:09.558Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:09.567Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:09.729Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 336.559 ms
+info: 2022-02-18T21:59:09.737Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 341.846 ms
+info: 2022-02-18T21:59:09.916Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:09.919Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:10.092Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 350.844 ms
+info: 2022-02-18T21:59:10.105Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 373.317 ms
+info: 2022-02-18T21:59:10.277Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T21:59:10.444Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 335.044 ms
+info: 2022-02-18T22:01:22.404Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:01:22.407Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 175.525 ms
+info: 2022-02-18T22:01:22.600Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:01:22.602Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:01:22.776Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 339.586 ms
+info: 2022-02-18T22:01:22.777Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 339.603 ms
+info: 2022-02-18T22:06:41.894Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:06:41.898Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 170.191 ms
+info: 2022-02-18T22:06:42.182Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:06:42.186Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:06:42.348Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 426.919 ms
+info: 2022-02-18T22:06:42.362Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 442.723 ms
+info: 2022-02-18T22:07:06.936Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:07:06.937Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:07:06.942Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:07:06.945Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 174.103 ms
+info: 2022-02-18T22:07:07.094Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 322.122 ms
+info: 2022-02-18T22:07:07.101Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 331.912 ms
+info: 2022-02-18T22:07:07.255Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:07:07.271Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:07:07.414Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 317.364 ms
+info: 2022-02-18T22:07:07.444Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 341.754 ms
+info: 2022-02-18T22:07:27.002Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:07:27.010Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:07:27.174Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 330.001 ms
+info: 2022-02-18T22:07:27.184Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 342.842 ms
+info: 2022-02-18T22:08:28.918Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:08:28.928Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:08:28.932Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 171.339 ms
+info: 2022-02-18T22:08:28.933Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:08:29.078Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 316.370 ms
+info: 2022-02-18T22:08:29.120Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 360.731 ms
+info: 2022-02-18T22:08:29.252Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:08:29.289Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:08:29.415Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 332.284 ms
+info: 2022-02-18T22:08:29.472Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 347.556 ms
+info: 2022-02-18T22:09:04.892Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:09:04.895Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 162.679 ms
+info: 2022-02-18T22:09:04.896Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:09:04.904Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:09:05.105Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 374.873 ms
+info: 2022-02-18T22:09:05.113Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 374.296 ms
+info: 2022-02-18T22:09:05.454Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:09:05.465Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:09:05.759Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 642.371 ms
+info: 2022-02-18T22:09:05.762Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 639.728 ms
+info: 2022-02-18T22:09:34.012Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:09:34.015Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:09:34.179Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 330.397 ms
+info: 2022-02-18T22:09:34.186Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 338.866 ms
+info: 2022-02-18T22:16:10.158Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:16:10.344Z ::1 - PUT /api/user/profile/61a1766b9bc5ff6327538833 HTTP/1.1 201 288 - 364.825 ms
+info: 2022-02-18T22:16:12.883Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:16:12.890Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:16:13.064Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 348.482 ms
+info: 2022-02-18T22:16:13.068Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 349.511 ms
+info: 2022-02-18T22:26:15.746Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:26:15.749Z ::1 - GET /api/user/whoami HTTP/1.1 200 119 - 172.010 ms
+info: 2022-02-18T22:26:24.341Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:26:24.449Z ::1 - PUT /api/user/profile/61a1766b9bc5ff6327538833 HTTP/1.1 - - - - ms
+info: 2022-02-18T22:26:24.895Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:26:24.901Z ::1 - GET /api/user/whoami HTTP/1.1 200 125 - 170.698 ms
+info: 2022-02-18T22:26:33.261Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:26:33.269Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:26:33.448Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 354.229 ms
+info: 2022-02-18T22:26:33.455Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 358.741 ms
+info: 2022-02-18T22:26:35.587Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:26:35.591Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:26:35.756Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 432.313 ms
+info: 2022-02-18T22:26:35.775Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 453.298 ms
+info: 2022-02-18T22:37:39.269Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:37:39.273Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 222.395 ms
+info: 2022-02-18T22:37:39.576Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:37:39.579Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:37:39.750Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 435.090 ms
+info: 2022-02-18T22:37:39.753Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 437.204 ms
+info: 2022-02-18T22:37:50.227Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:37:50.234Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:37:50.436Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7743 - 395.212 ms
+info: 2022-02-18T22:37:50.442Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 399.452 ms
+info: 2022-02-18T22:38:02.412Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:38:02.791Z ::1 - PUT /api/invest/61d0b802e35074fdcb5a1e07 HTTP/1.1 201 2498 - 611.198 ms
+info: 2022-02-18T22:43:04.497Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:43:04.503Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:43:04.676Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 406.550 ms
+info: 2022-02-18T22:43:04.683Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 411.767 ms
+info: 2022-02-18T22:52:48.909Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:52:48.912Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:52:48.919Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 169.867 ms
+info: 2022-02-18T22:52:48.922Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:52:49.082Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 336.881 ms
+info: 2022-02-18T22:52:49.087Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 338.611 ms
+info: 2022-02-18T22:52:49.311Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:52:49.317Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:52:49.528Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 436.625 ms
+info: 2022-02-18T22:52:49.533Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 439.132 ms
+info: 2022-02-18T22:55:28.029Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T22:55:28.043Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 334.866 ms
+info: 2022-02-18T23:03:15.675Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T23:03:15.681Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T23:03:15.853Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 342.463 ms
+info: 2022-02-18T23:03:15.856Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 343.291 ms
+info: 2022-02-18T23:04:27.863Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T23:04:27.867Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 171.757 ms
+info: 2022-02-18T23:07:57.853Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T23:07:58.026Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 337.525 ms
+info: 2022-02-18T23:08:23.178Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T23:08:23.180Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 168.951 ms
+info: 2022-02-18T23:08:23.358Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T23:08:23.526Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 332.199 ms
+info: 2022-02-18T23:13:33.654Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T23:13:33.856Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 366.843 ms
+info: 2022-02-18T23:15:37.171Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T23:15:37.173Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 172.902 ms
+info: 2022-02-18T23:16:19.010Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T23:16:19.015Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 172.868 ms
+info: 2022-02-18T23:16:27.700Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T23:16:27.716Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 187.292 ms
+info: 2022-02-18T23:16:27.997Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T23:16:28.184Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 387.367 ms
+info: 2022-02-18T23:19:20.903Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T23:19:21.073Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 336.732 ms
+info: 2022-02-18T23:20:19.614Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T23:20:19.781Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 335.662 ms
+info: 2022-02-18T23:23:04.613Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T23:23:04.824Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 378.169 ms
+info: 2022-02-18T23:24:21.430Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T23:24:21.597Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 332.813 ms
+info: 2022-02-18T23:25:20.132Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T23:25:20.317Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 355.272 ms
+info: 2022-02-18T23:27:41.865Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T23:27:42.590Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 890.853 ms
+info: 2022-02-18T23:28:03.945Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T23:28:04.140Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 361.260 ms
+info: 2022-02-18T23:31:53.337Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T23:31:53.340Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 166.490 ms
+info: 2022-02-18T23:31:53.535Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T23:31:53.718Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 351.853 ms
+info: 2022-02-18T23:33:08.013Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T23:33:08.016Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 193.504 ms
+info: 2022-02-18T23:33:08.233Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T23:33:08.441Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 400.106 ms
+info: 2022-02-18T23:33:26.516Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T23:33:26.701Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 358.535 ms
+info: 2022-02-18T23:33:49.666Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T23:33:49.669Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 172.969 ms
+info: 2022-02-18T23:33:49.862Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T23:33:50.041Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 348.994 ms
+info: 2022-02-18T23:42:08.014Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T23:42:08.188Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 352.142 ms
+info: 2022-02-18T23:43:28.899Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T23:43:29.072Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 338.853 ms
+info: 2022-02-18T23:43:35.479Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T23:43:35.489Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T23:43:35.656Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 355.458 ms
+info: 2022-02-18T23:43:35.661Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 358.348 ms
+info: 2022-02-18T23:43:44.140Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T23:43:44.406Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 449.829 ms
+info: 2022-02-18T23:47:45.873Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T23:47:46.246Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 546.274 ms
+info: 2022-02-18T23:51:32.604Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T23:51:33.008Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 570.732 ms
+info: 2022-02-18T23:53:33.081Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T23:53:33.416Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 500.064 ms
+info: 2022-02-18T23:58:29.007Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-18T23:58:29.186Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 343.586 ms
+info: 2022-02-19T00:01:24.114Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T00:01:24.677Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 818.459 ms
+info: 2022-02-19T00:09:43.678Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T00:09:44.099Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 1027.754 ms
+info: 2022-02-19T00:11:47.343Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T00:11:47.944Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 830.019 ms
+info: 2022-02-19T00:26:39.193Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T00:26:39.660Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 634.742 ms
+info: 2022-02-19T00:27:02.657Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T00:27:02.660Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T00:27:02.905Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 423.624 ms
+info: 2022-02-19T00:27:02.909Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 425.194 ms
+info: 2022-02-19T00:27:26.616Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T00:27:26.960Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 506.347 ms
+info: 2022-02-19T00:30:35.380Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T00:30:35.769Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 597.475 ms
+info: 2022-02-19T00:33:48.923Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T00:33:49.144Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 471.118 ms
+info: 2022-02-19T00:34:03.729Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T00:34:04.144Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 587.754 ms
+info: 2022-02-19T00:34:09.948Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T00:34:10.329Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 587.663 ms
+info: 2022-02-19T00:35:08.795Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T00:35:09.219Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 641.382 ms
+info: 2022-02-19T00:36:01.775Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T00:36:02.252Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 681.371 ms
+info: 2022-02-19T00:37:00.206Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T00:37:00.415Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 429.724 ms
+info: 2022-02-19T00:37:20.483Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T00:37:20.686Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 366.268 ms
+info: 2022-02-19T00:37:45.878Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T00:37:46.100Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 413.231 ms
+info: 2022-02-19T00:38:19.253Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T00:38:19.428Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 380.021 ms
+info: 2022-02-19T00:39:50.432Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T00:39:50.605Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 345.906 ms
+info: 2022-02-19T00:40:17.035Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T00:40:17.218Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 354.542 ms
+info: 2022-02-19T00:40:25.931Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T00:40:26.155Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 446.428 ms
+info: 2022-02-19T00:41:21.944Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T00:41:22.141Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 416.891 ms
+info: 2022-02-19T00:54:27.061Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T00:54:27.267Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 388.677 ms
+info: 2022-02-19T00:54:35.659Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T00:54:35.875Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 401.818 ms
+info: 2022-02-19T00:54:41.097Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T00:54:41.410Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 502.294 ms
+info: 2022-02-19T01:14:38.313Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:14:38.478Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 328.732 ms
+info: 2022-02-19T01:14:39.621Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:14:39.797Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 341.338 ms
+info: 2022-02-19T01:14:44.380Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:14:44.556Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 337.769 ms
+info: 2022-02-19T01:14:45.882Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:14:46.072Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 362.785 ms
+info: 2022-02-19T01:14:49.423Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:14:49.596Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 356.273 ms
+info: 2022-02-19T01:15:39.603Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:15:39.768Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 327.544 ms
+info: 2022-02-19T01:15:53.832Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:15:54.006Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 340.530 ms
+info: 2022-02-19T01:15:56.230Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:15:56.404Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 334.592 ms
+info: 2022-02-19T01:17:39.745Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:17:39.922Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 349.356 ms
+info: 2022-02-19T01:17:41.928Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:17:42.101Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 342.028 ms
+info: 2022-02-19T01:17:46.068Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:17:46.238Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 351.050 ms
+info: 2022-02-19T01:21:15.856Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:21:16.022Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 331.018 ms
+info: 2022-02-19T01:21:18.732Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:21:18.914Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 344.977 ms
+info: 2022-02-19T01:21:27.094Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:21:27.274Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 342.077 ms
+info: 2022-02-19T01:21:44.500Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:21:44.674Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 335.735 ms
+info: 2022-02-19T01:21:47.339Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:21:47.541Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 370.874 ms
+info: 2022-02-19T01:22:00.236Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:22:00.588Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 533.192 ms
+info: 2022-02-19T01:22:02.606Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:22:02.946Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 499.080 ms
+info: 2022-02-19T01:22:06.892Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:22:07.226Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 497.966 ms
+info: 2022-02-19T01:22:08.446Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:22:08.622Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 339.113 ms
+info: 2022-02-19T01:22:11.496Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:22:11.679Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 349.341 ms
+info: 2022-02-19T01:23:05.654Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:23:05.825Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 332.119 ms
+info: 2022-02-19T01:23:43.488Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:23:43.491Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 175.001 ms
+info: 2022-02-19T01:23:43.681Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:23:43.850Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 334.374 ms
+info: 2022-02-19T01:23:54.051Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:23:54.053Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 163.950 ms
+info: 2022-02-19T01:23:54.240Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:23:54.406Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 334.136 ms
+info: 2022-02-19T01:23:55.952Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:23:56.122Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 334.596 ms
+info: 2022-02-19T01:24:28.507Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:24:28.677Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 334.431 ms
+info: 2022-02-19T01:24:35.954Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:24:36.129Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 340.917 ms
+info: 2022-02-19T01:24:37.230Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:24:37.411Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 344.886 ms
+info: 2022-02-19T01:24:39.772Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:24:40.178Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 587.317 ms
+info: 2022-02-19T01:36:31.891Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:36:32.237Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 510.945 ms
+info: 2022-02-19T01:40:08.927Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:40:09.260Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 496.789 ms
+info: 2022-02-19T01:43:08.239Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:43:08.241Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 168.889 ms
+info: 2022-02-19T01:43:08.560Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:43:08.730Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 349.468 ms
+info: 2022-02-19T01:43:29.286Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:43:29.298Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 176.799 ms
+info: 2022-02-19T01:43:29.520Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:43:29.695Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 335.207 ms
+info: 2022-02-19T01:45:41.592Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:45:41.778Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 359.599 ms
+info: 2022-02-19T01:47:59.852Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:48:00.029Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 343.328 ms
+info: 2022-02-19T01:48:50.314Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:48:50.494Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 356.782 ms
+info: 2022-02-19T01:49:42.865Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T01:49:43.038Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 336.147 ms
+info: 2022-02-19T15:23:47.229Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:23:48.194Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 2075.891 ms
+info: 2022-02-19T15:23:48.198Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:23:49.392Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 3271.843 ms
+info: 2022-02-19T15:23:55.514Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:23:55.518Z ::1 - GET /api/user/whoami HTTP/1.1 304 - - 177.546 ms
+info: 2022-02-19T15:23:55.732Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:23:55.735Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:23:55.914Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 352.522 ms
+info: 2022-02-19T15:23:56.066Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 505.780 ms
+info: 2022-02-19T15:28:43.384Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:28:43.562Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 452.345 ms
+info: 2022-02-19T15:28:48.976Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:28:48.988Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:28:49.154Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 345.418 ms
+info: 2022-02-19T15:28:49.164Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 354.806 ms
+info: 2022-02-19T15:28:50.973Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:28:51.155Z ::1 - GET /api/entitie/ HTTP/1.1 201 6387 - 352.201 ms
+info: 2022-02-19T15:28:52.600Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:28:52.606Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:28:52.780Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 372.229 ms
+info: 2022-02-19T15:28:52.783Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 371.334 ms
+info: 2022-02-19T15:28:57.002Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:28:57.182Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 463.373 ms
+info: 2022-02-19T15:29:15.846Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:29:15.851Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:29:16.057Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 496.719 ms
+info: 2022-02-19T15:29:16.061Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 496.638 ms
+info: 2022-02-19T15:29:25.163Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:29:25.353Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 449.511 ms
+info: 2022-02-19T15:29:35.876Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:29:36.060Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 546.153 ms
+info: 2022-02-19T15:29:42.161Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:29:42.372Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 436.802 ms
+info: 2022-02-19T15:29:51.733Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:29:51.880Z ::1 - PUT /api/user/profile/61a1766b9bc5ff6327538833 HTTP/1.1 - - - - ms
+info: 2022-02-19T15:29:52.511Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:29:52.517Z ::1 - GET /api/user/whoami HTTP/1.1 200 134 - 170.838 ms
+info: 2022-02-19T15:29:57.366Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:29:57.629Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 475.018 ms
+info: 2022-02-19T15:30:00.080Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:30:00.292Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 408.582 ms
+info: 2022-02-19T15:30:06.066Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:30:06.248Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 353.647 ms
+info: 2022-02-19T15:30:17.395Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:30:17.581Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 357.291 ms
+info: 2022-02-19T15:30:26.620Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:30:26.798Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 350.668 ms
+info: 2022-02-19T15:30:31.292Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:30:31.299Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:30:31.525Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 413.771 ms
+info: 2022-02-19T15:30:31.530Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 416.890 ms
+info: 2022-02-19T15:31:56.618Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:31:56.798Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 406.608 ms
+info: 2022-02-19T15:32:38.242Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:32:38.252Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:32:38.423Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 356.929 ms
+info: 2022-02-19T15:32:38.430Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 355.843 ms
+info: 2022-02-19T15:32:46.350Z Usuario con Email ehuaynates@gmail.com. Autenticacion correcta
+info: 2022-02-19T15:32:46.351Z ::1 - POST /api/user/login HTTP/1.1 200 325 - 382.146 ms
+info: 2022-02-19T15:32:46.544Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:32:46.557Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:32:46.720Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 347.233 ms
+info: 2022-02-19T15:32:46.741Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 370.270 ms
+info: 2022-02-19T15:32:51.846Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:32:52.025Z ::1 - GET /api/entitie/ HTTP/1.1 201 6387 - 493.959 ms
+info: 2022-02-19T15:32:59.486Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:32:59.672Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 370.623 ms
+info: 2022-02-19T15:33:01.534Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:33:01.712Z ::1 - GET /api/entitie/ HTTP/1.1 201 6387 - 437.950 ms
+info: 2022-02-19T15:33:02.560Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:33:02.565Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:33:02.870Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 562.402 ms
+info: 2022-02-19T15:33:02.874Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 557.604 ms
+info: 2022-02-19T15:33:07.781Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:33:07.962Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 465.902 ms
+info: 2022-02-19T15:33:09.789Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:33:09.797Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:33:09.978Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 432.012 ms
+info: 2022-02-19T15:33:09.985Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 432.812 ms
+info: 2022-02-19T15:33:23.876Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:33:24.066Z ::1 - GET /api/entitie/mantein/61a1766b9bc5ff6327538833 HTTP/1.1 201 1338 - 353.611 ms
+info: 2022-02-19T15:33:24.371Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:33:24.541Z ::1 - GET /api/entitie/mantein/61a1766b9bc5ff6327538833 HTTP/1.1 201 1338 - 442.713 ms
+info: 2022-02-19T15:34:24.812Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:34:24.998Z ::1 - GET /api/entitie/mantein/61a1766b9bc5ff6327538833 HTTP/1.1 201 1338 - 354.762 ms
+info: 2022-02-19T15:35:01.858Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:35:02.065Z ::1 - GET /api/entitie/mantein/61a1766b9bc5ff6327538833 HTTP/1.1 201 1338 - 453.928 ms
+info: 2022-02-19T15:35:26.236Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:35:26.550Z ::1 - PUT /api/entitie/619eca82bc653c3d965b5d3a HTTP/1.1 201 380 - 564.034 ms
+info: 2022-02-19T15:35:46.401Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:35:46.408Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:35:46.608Z ::1 - GET /api/invest/totales/61a1766b9bc5ff6327538833 HTTP/1.1 201 161 - 408.567 ms
+info: 2022-02-19T15:35:46.619Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 421.029 ms
+info: 2022-02-19T15:35:52.548Z Usuario [MrEH] suministro un token valido. 
+    Autenticacion correcta
+info: 2022-02-19T15:35:52.728Z ::1 - GET /api/invest?user=61a1766b9bc5ff6327538833 HTTP/1.1 201 7760 - 349.255 ms

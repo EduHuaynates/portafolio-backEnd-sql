@@ -20,6 +20,8 @@ userRouter.put(
   "/profile/:userId",
   [jwtAuthenticate],
   handleError((req, res) => {
+    console.log(req.body, "updateBody");
+    console.log(req.params.userId, "Id");
     return userController
       .updateUser(req.params.userId, req.body)
       .then((userUpdated) => {

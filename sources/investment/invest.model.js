@@ -27,6 +27,9 @@ const investSchema = new mongoose.Schema(
       type: String,
       //   required: true,
     },
+    investor: {
+      type: String,
+    },
     t_anual: {
       type: Number,
       //   required: true,
