@@ -48,9 +48,9 @@ app.use(
 app.use(passport.initialize());
 app.use(express.json());
 
-app.use("/api/user", UserRouter);
-app.use("/api/invest", InvestRouter);
-app.use("/api/entitie", EntitieRouter);
+app.use("/api/v1/user-management/users", UserRouter);
+app.use("/api/v1/investment-management/investments", InvestRouter);
+app.use("/api/v1/entitie-management/entities", EntitieRouter);
 app.use("/api/post", PostRouter);
 app.use("/api/comment", CommentRouter);
 app.use("/api/project", ProjectRouter);

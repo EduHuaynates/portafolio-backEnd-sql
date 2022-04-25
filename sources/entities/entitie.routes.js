@@ -7,17 +7,29 @@ const config = require("../../config");
 const passport = require("passport");
 const jwtAuthenticate = passport.authenticate("jwt", { session: false });
 
-entitieRouter.put(
-  "/:id",
+
+entitieRouter.get(
+  "/:id/similar",
   [jwtAuthenticate],
   handleError((req, res) => {
-    // const { _id, ...others } = req.body;
-    console.log(req.body, "put log");
+    console.log(req.query, "Tipo Env");
     return entitieController
-      .updateEntitie(req.params.id, req.body)
-      .then((newEntitie) => {
-        res.status(201).json(newEntitie);
+      .getSimilarEntities(req.query.TipoInversion, req.params.id)
+      .then((singleEntitie) => {
+        res.status(201).json(singleEntitie);
       });
+  })
+);
+
+
+entitieRouter.get(
+  "/",
+  [jwtAuthenticate],
+  handleError((req, res) => {
+    // console.log(req.query.user,'params');
+    return entitieController.getEntitie().then((ents) => {
+      res.status(201).json(ents);
+    });
   })
 );
 
@@ -30,6 +42,25 @@ entitieRouter.get(
       .getSingleEntitie(req.params.id)
       .then((singleEntitie) => {
         res.status(201).json(singleEntitie);
+      });
+  })
+);
+
+
+
+////TO BE DEFINED
+
+
+entitieRouter.put(
+  "/:id",
+  [jwtAuthenticate],
+  handleError((req, res) => {
+    // const { _id, ...others } = req.body;
+    console.log(req.body, "put log");
+    return entitieController
+      .updateEntitie(req.params.id, req.body)
+      .then((newEntitie) => {
+        res.status(201).json(newEntitie);
       });
   })
 );
@@ -47,18 +78,6 @@ entitieRouter.get(
   })
 );
 
-entitieRouter.get(
-  "/similar/:id",
-  [jwtAuthenticate],
-  handleError((req, res) => {
-    console.log(req.query, "Tipo Env");
-    return entitieController
-      .getSimilarEntities(req.query.TipoInversion, req.params.id)
-      .then((singleEntitie) => {
-        res.status(201).json(singleEntitie);
-      });
-  })
-);
 
 entitieRouter.get(
   "/filter",
@@ -84,15 +103,6 @@ entitieRouter.post(
   })
 );
 
-entitieRouter.get(
-  "/",
-  [jwtAuthenticate],
-  handleError((req, res) => {
-    // console.log(req.query.user,'params');
-    return entitieController.getEntitie().then((ents) => {
-      res.status(201).json(ents);
-    });
-  })
-);
+
 
 module.exports = entitieRouter;

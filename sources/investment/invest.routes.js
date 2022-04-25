@@ -1,4 +1,6 @@
 const investController = require("./invest.controller");
+const scheduleController = require("../schedule/schedule.controller");
+
 const express = require("express");
 const investRouter = express.Router();
 const handleError = require("../../libs/errorHandler").handleError;
@@ -7,8 +9,33 @@ const config = require("../../config");
 const passport = require("passport");
 const jwtAuthenticate = passport.authenticate("jwt", { session: false });
 
+investRouter.post(
+  "/creation",
+  [jwtAuthenticate],
+  handleError((req, res) => {
+    //console.log(req.body, "createInvet Body");
+    return investController
+      .createInvest(req.body[0], req.body[1])
+      .then((post) => {
+        res.status(201).json(post);
+      });
+  })
+);
+
+investRouter.delete(
+  "/:id/delete",
+  [jwtAuthenticate],
+  handleError((req, res) => {
+    return investController
+      .deleteInvest(req.params.id)
+      .then((investDeleted) => {
+        res.status(201).json(investDeleted);
+      });
+  })
+  );
+
 investRouter.put(
-  "/:id",
+  "/:id/update",
   [jwtAuthenticate],
   handleError((req, res) => {
     // const { _id, ...others } = req.body;
@@ -22,36 +49,48 @@ investRouter.put(
 );
 
 investRouter.post(
-  "/",
+  "/:id/schedule/creation",
   [jwtAuthenticate],
   handleError((req, res) => {
-    console.log(req.body);
-    return investController.createInvest(req.body).then((post) => {
-      res.status(201).json(post);
-    });
+    return scheduleController
+      .createSchedule(req.params.id, req.body)
+      .then((sch) => {
+        res.status(201).json(sch);
+      });
   })
 );
 
 investRouter.get(
-  "/",
+  "/:id/schedule",
   [jwtAuthenticate],
   handleError((req, res) => {
-    // console.log(req.query.user,'params');
-    return investController.getInvest(req.query.user).then((is) => {
-      res.status(201).json(is);
+    console.log(req.params.id, "entro");
+    return scheduleController.getSchedule(req.params.id).then((sch) => {
+      res.status(201).json(sch);
     });
   })
 );
 
-investRouter.get(
-  "/totales/:id",
-  [jwtAuthenticate],
-  handleError((req, res) => {
-    console.log(req.params.id, "gettotalId");
-    return investController.getCapitalPerUser(req.params.id).then((tot) => {
-      res.status(201).json(tot);
-    });
-  })
-);
+// investRouter.get(
+//   "/",
+//   [jwtAuthenticate],
+//   handleError((req, res) => {
+//     // console.log(req.query.user,'params');
+//     return investController.getInvest(req.query.user).then((is) => {
+//       res.status(201).json(is);
+//     });
+//   })
+// );
+
+// investRouter.get(
+//   "/totales/:id",
+//   [jwtAuthenticate],
+//   handleError((req, res) => {
+//     console.log(req.params.id, "gettotalId");
+//     return investController.getCapitalPerUser(req.params.id).then((tot) => {
+//       res.status(201).json(tot);
+//     });
+//   })
+// );
 
 module.exports = investRouter;

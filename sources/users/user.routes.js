@@ -1,4 +1,6 @@
 const userController = require("./user.controller");
+const investController = require("../investment/invest.controller");
+const scheduleController = require("../schedule/schedule.controller");
 const express = require("express");
 const userRouter = express.Router();
 const bcrypt = require("bcrypt");
@@ -10,14 +12,13 @@ const config = require("../../config");
 const { UsersCredencialsInUse, IncorrectCredencials } = require("./user.error");
 const jwtAuthenticate = passport.authenticate("jwt", { session: false });
 
-userRouter.get("/whoami", [jwtAuthenticate], (req, res) => {
-  console.log("whoami?", req.user);
+userRouter.get("/retrieve", [jwtAuthenticate], (req, res) => {
+  console.log("retrieve?", req.user);
   res.send(hideUserFields(req.user));
-  // res.send('Holaaaaa')
 });
 
 userRouter.put(
-  "/profile/:userId",
+  "/:userId/update",
   [jwtAuthenticate],
   handleError((req, res) => {
     console.log(req.body, "updateBody");
@@ -31,10 +32,10 @@ userRouter.put(
 );
 
 userRouter.post(
-  "/register",
-  // [jwtAuthenticate],
+  "/registration",
   handleError((req, res) => {
     let newUser = req.body;
+    console.log(newUser, "userBody");
     return userController
       .userExists(newUser.username)
       .then((usuarioExiste) => {
@@ -59,10 +60,8 @@ userRouter.post(
 
 userRouter.post(
   "/login",
-  // [jwtAuthenticate],
   handleError(async (req, res) => {
     let userNotAuthenticated = req.body;
-    // console.log(userNotAuthenticated);
     let userRegistered = await userController.getSingleUser({
       username: userNotAuthenticated.username,
     });
@@ -108,4 +107,38 @@ function hideUserFields(user) {
     investors: user.investors,
   };
 }
+
+userRouter.get(
+  "/:_id/investments",
+  [jwtAuthenticate],
+  handleError((req, res) => {
+    console.log(req.query.user,'params');
+    return investController.getInvest(req.params._id).then((is) => {
+      res.status(201).json(is);
+    });
+  })
+);
+
+userRouter.get(
+  "/:id/total-invested",
+  [jwtAuthenticate],
+  handleError((req, res) => {
+    console.log(req.params.id, "gettotalId");
+    return investController.getCapitalPerUser(req.params.id).then((tot) => {
+      res.status(201).json(tot);
+    });
+  })
+);
+
+userRouter.get(
+  "/:id/schedules",
+  [jwtAuthenticate],
+  handleError((req, res) => {
+    console.log(req.params.id, "gettotalId");
+    return scheduleController.getUserSchedules(req.params.id).then((sch) => {
+      res.status(201).json(sch);
+    });
+  })
+);
+
 module.exports = userRouter;

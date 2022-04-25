@@ -19,6 +19,10 @@ const investSchema = new mongoose.Schema(
       type: Number,
       //   required: true,
     },
+    tipoInversion: {
+      type: String,
+    },
+
     retornoInteres: {
       type: String,
       //   required: true,
@@ -28,28 +32,25 @@ const investSchema = new mongoose.Schema(
       //   required: true,
     },
     investor: {
-      type: String,
+      type: [Object],
     },
     t_anual: {
       type: Number,
       //   required: true,
     },
+    periodo_tasa: {
+      type: String,
+    },
     periodo: {
       type: Number,
       //   required: true,
     },
-
-    // schedule: [
-    //   {
-    //     CapitalRetornado: Number,
-    //     InteresRetornado: Number,
-    //     Cuota: Number,
-    //     Saldo: Number,
-    //     Status: String,
-    //     FechaPago: Date
-    //   },
-    // ],
-    schedule: [Object],
+    schedule: [
+      {
+        type: ObjectId,
+        ref: "schedule",
+      },
+    ],
 
     user: {
       type: ObjectId,
