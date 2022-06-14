@@ -13,7 +13,6 @@ const { UsersCredencialsInUse, IncorrectCredencials } = require("./user.error");
 const jwtAuthenticate = passport.authenticate("jwt", { session: false });
 
 userRouter.get("/retrieve", [jwtAuthenticate], (req, res) => {
-  console.log("retrieve?", req.user);
   res.send(hideUserFields(req.user));
 });
 
@@ -21,8 +20,6 @@ userRouter.put(
   "/:userId/update",
   [jwtAuthenticate],
   handleError((req, res) => {
-    console.log(req.body, "updateBody");
-    console.log(req.params.userId, "Id");
     return userController
       .updateUser(req.params.userId, req.body)
       .then((userUpdated) => {
@@ -39,18 +36,16 @@ userRouter.post(
     return userController
       .userExists(newUser.username)
       .then((usuarioExiste) => {
-        // console.log(usuarioExiste)
+        console.log(usuarioExiste, "usuarioExiste");
         if (usuarioExiste) {
-          log.warn(`Email [${newUser.email}] o
-            username [${newUser.username}] ya existe en la BD`);
-          // console.log(`Usuario ${newUser.username} ya existe`);
+          log.warn(`Username [${newUser.username}] ya existe en la BD`);
           throw new UsersCredencialsInUse();
         }
-
         return bcrypt.hash(newUser.password, 10);
       })
       .then((hash) => {
         return userController.createUser(newUser, hash).then((newUser) => {
+          console.log(newUser);
           res.status(201).json(`Usuario creado ${newUser}`);
           return newUser;
         });
@@ -101,10 +96,9 @@ function createToken(userId) {
 
 function hideUserFields(user) {
   return {
-    _id: user.id || user._id,
-    email: user.email,
+    id: user.id,
     username: user.username,
-    investors: user.investors,
+    //investors: user.investors,
   };
 }
 
@@ -112,7 +106,7 @@ userRouter.get(
   "/:_id/investments",
   [jwtAuthenticate],
   handleError((req, res) => {
-    console.log(req.query.user,'params');
+    console.log(req.query.user, "params");
     return investController.getInvest(req.params._id).then((is) => {
       res.status(201).json(is);
     });
@@ -136,6 +130,17 @@ userRouter.get(
   handleError((req, res) => {
     console.log(req.params.id, "gettotalId");
     return scheduleController.getUserSchedules(req.params.id).then((sch) => {
+      res.status(201).json(sch);
+    });
+  })
+);
+
+userRouter.get(
+  "/:id/interests",
+  // [jwtAuthenticate],
+  handleError((req, res) => {
+    console.log(req.params.id, "gettotalId");
+    return investController.getUserInterest(req.params.id).then((sch) => {
       res.status(201).json(sch);
     });
   })

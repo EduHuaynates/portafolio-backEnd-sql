@@ -19,6 +19,7 @@ const passport = require("passport");
 const authJWT = require("./libs/auth");
 const errorHandler = require("./libs/errorHandler");
 
+
 app.use(cors());
 dbPort = config.db.port;
 dbHost = config.db.host;
@@ -27,15 +28,6 @@ dbURL = config.url.mongo_connect;
 appURL = config.server.port;
 
 passport.use(authJWT);
-mongoose
-  //.connect(`mongodb://${dbHost}:${dbPort}/portafolio`, {})
-  //.connect(`mongodb+srv://ehuaynates:jTcadp3@portafolio.aesbz.mongodb.net/Portafolio?retryWrites=true&w=majority`, {})
-  .connect(dbURL, {})
-  .then(console.log(`Connected to MongoDB at port ${dbPort}`));
-
-mongoose.connection.on("error", () => {
-  console.log("No se pudo conectar con la bd");
-});
 
 app.use(
   morgan("short", {
@@ -50,10 +42,10 @@ app.use(express.json());
 
 app.use("/api/v1/user-management/users", UserRouter);
 app.use("/api/v1/investment-management/investments", InvestRouter);
-app.use("/api/v1/entitie-management/entities", EntitieRouter);
-app.use("/api/post", PostRouter);
-app.use("/api/comment", CommentRouter);
-app.use("/api/project", ProjectRouter);
+// app.use("/api/v1/entitie-management/entities", EntitieRouter);
+// app.use("/api/post", PostRouter);
+// app.use("/api/comment", CommentRouter);
+// app.use("/api/project", ProjectRouter);
 
 app.use(errorHandler.handleDBError);
 

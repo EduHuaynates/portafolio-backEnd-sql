@@ -13,9 +13,8 @@ investRouter.post(
   "/creation",
   [jwtAuthenticate],
   handleError((req, res) => {
-    //console.log(req.body, "createInvet Body");
     return investController
-      .createInvest(req.body[0], req.body[1])
+      .createInvest(req.body)
       .then((post) => {
         res.status(201).json(post);
       });
@@ -62,7 +61,7 @@ investRouter.post(
 
 investRouter.get(
   "/:id/schedule",
-  [jwtAuthenticate],
+  // [jwtAuthenticate],
   handleError((req, res) => {
     console.log(req.params.id, "entro");
     return scheduleController.getSchedule(req.params.id).then((sch) => {

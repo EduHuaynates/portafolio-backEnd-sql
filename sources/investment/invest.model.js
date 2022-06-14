@@ -47,8 +47,9 @@ const investSchema = new mongoose.Schema(
     },
     schedule: [
       {
-        type: ObjectId,
-        ref: "schedule",
+        Object,
+        // type: ObjectId,
+        // ref: "schedule",
       },
     ],
 

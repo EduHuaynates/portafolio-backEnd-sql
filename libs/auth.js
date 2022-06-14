@@ -10,14 +10,14 @@ const jwtOptions = {
 
 module.exports = new passportJWT.Strategy(jwtOptions, (jwtPayload, next) => {
   userController
-    .getSingleUser({ id: jwtPayload.id })
+    .getSingleUserById({ id: jwtPayload.id })
     .then((usuario) => {
       if (!usuario) {
         // log.info(`Usuario con ID ${jwtPayload.id} no existe`);
         next(null, false);
         return;
       }
-      // console.log("usuario", usuario);
+      //console.log("educito", 'XD');
       log.info(`Usuario [${usuario.username}] suministro un token valido. 
     Autenticacion correcta`);
       next(null, usuario);

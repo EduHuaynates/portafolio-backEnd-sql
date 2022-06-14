@@ -6,7 +6,6 @@ const paymentSchema = new mongoose.Schema(
       type: String,
       require: true,
     },
-
     montoPago: {
       type: Number,
       require: true,

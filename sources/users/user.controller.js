@@ -1,33 +1,27 @@
 const Usuario = require("./user.model");
+const pool = require("../../db");
 
-function createUser(user, hashedPassword) {
-  console.log("usuario", user);
-  return new Usuario({
-    ...user,
-    password: hashedPassword,
-  }).save();
+async function createUser(user, hashedPassword) {
+  const { username } = user;
+  const result = await pool.query(
+    "INSERT INTO USUARIOS (username,password) VALUES ( $1,$2)",
+    [username, hashedPassword]
+  );
+
+  if (result.rows.length > 0) {
+    return result.rows[0].username;
+  } else {
+    return username;
+  }
 }
 
 function userExists(username) {
-  return new Promise((resolve, reject) => {
-    Usuario.find()
-      .or([{ username: username }])
-      .then((usuarios) => {
-        resolve(usuarios.length > 0);
-      })
-      .catch((err) => {
-        reject(err);
-      });
-  });
+  return getUserByQuery(username);
 }
 
-function getSingleUser({ username: username, email: email, id: id }) {
+function getSingleUser({ username: username }) {
   if (username) {
-    return getUserByQuery({ username: username });
-  } else if (id) {
-    return getUserByQuery({ _id: id });
-  } else if (email) {
-    return getUserByQuery({ email: email });
+    return getUserByQuery(username);
   } else {
     throw new Error(
       "Function GetSingleUser was called without a required parameter"
@@ -35,15 +29,49 @@ function getSingleUser({ username: username, email: email, id: id }) {
   }
 }
 
-function updateUser(userId, fields) {
-  return Usuario.findByIdAndUpdate(userId, {
-    ...fields,
-  });
+function getSingleUserById({ id: id }) {
+  if (id) {
+    return getUserByQueryId(id);
+  } else {
+    throw new Error(
+      "Function GetSingleUser was called without a required parameter"
+    );
+  }
 }
 
-async function getUserByQuery(query) {
-  const user = await Usuario.findOne(query);
-  return user;
+async function updateUser(userId, fields) {
+  const { username, active } = fields;
+  const query = ` UPDATE USUARIOS
+                  SET username = $1 ,
+                      active = $2
+                  WHERE id = $3 RETURNING id, username`;
+  const result = await pool.query(query, [username, active, userId]);
+  console.log(result, "result.rows[]");
+  return result.rows[0];
+}
+
+async function getUserByQuery(parameter) {
+  const query = ` SELECT id , 
+                         username , 
+                         password 
+                  FROM USUARIOS 
+                  WHERE username = $1`;
+
+  const result = await pool.query(query, [parameter]);
+
+  return result.rows[0];
+}
+
+async function getUserByQueryId(parameter) {
+  const query = ` SELECT id , 
+                         username , 
+                         password 
+                  FROM USUARIOS 
+                  WHERE id = $1`;
+
+  const result = await pool.query(query, [parameter]);
+
+  return result.rows[0];
 }
 
 module.exports = {
@@ -52,4 +80,5 @@ module.exports = {
   getSingleUser,
   getUserByQuery,
   updateUser,
+  getSingleUserById,
 };
