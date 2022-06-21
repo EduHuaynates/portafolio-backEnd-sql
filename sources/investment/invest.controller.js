@@ -1,7 +1,10 @@
-const Investment = require("./invest.model");
+//const Investment = require("./invest.model");
 const Schedule = require("../schedule/schedule.model");
 const sequelize = require("../../database/connection");
-const investment = require("./invest.model");
+
+var initModels = require("../../database/models/init-models");
+var models = initModels(sequelize);
+Investment = models.investments
 
 // const mongoose = require("mongoose");
 // const ObjectId = mongoose.Types.ObjectId;

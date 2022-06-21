@@ -26635,3 +26635,13 @@ info: 2022-06-21T03:26:21.619Z ::1 - GET /api/v1/user-management/users/1/total-i
 info: 2022-06-21T03:26:22.081Z ::1 - GET /api/v1/user-management/users/1/schedules HTTP/1.1 201 9572 - 873.527 ms
 info: 2022-06-21T03:26:28.724Z ::1 - GET /api/v1/user-management/users/1/investments HTTP/1.1 201 1008 - 182.316 ms
 info: 2022-06-21T03:26:31.323Z ::1 - GET /api/v1/investment-management/investments/4/schedule/ HTTP/1.1 201 1401 - 204.026 ms
+warn: 2022-06-21T04:10:22.545Z undefined
+warn: 2022-06-21T04:10:22.546Z undefined
+info: 2022-06-21T04:10:22.552Z ::ffff:127.0.0.1 - GET /api/v1/investment-management/investments/1/schedule HTTP/1.1 500 69 - 12.936 ms
+warn: 2022-06-21T04:11:59.262Z undefined
+warn: 2022-06-21T04:11:59.263Z undefined
+info: 2022-06-21T04:11:59.265Z ::ffff:127.0.0.1 - GET /api/v1/investment-management/investments/1/schedule HTTP/1.1 500 69 - 3.455 ms
+warn: 2022-06-21T04:13:11.082Z undefined
+warn: 2022-06-21T04:13:11.082Z undefined
+info: 2022-06-21T04:13:11.085Z ::ffff:127.0.0.1 - GET /api/v1/investment-management/investments/1/schedule HTTP/1.1 500 69 - 3.688 ms
+info: 2022-06-21T04:18:12.096Z ::ffff:127.0.0.1 - GET /api/v1/investment-management/investments/1/schedule HTTP/1.1 201 2786 - 1559.273 ms

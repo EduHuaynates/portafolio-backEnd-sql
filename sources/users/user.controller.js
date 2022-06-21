@@ -1,4 +1,8 @@
-const User = require("./user.model");
+//const User = require("./user.model");
+const sequelize = require("../../database/connection");
+var initModels = require("../../database/databasefirst/init-models");
+var models = initModels(sequelize);
+User = models.users
 // const sequelize = require("../../connection");
 
 function createUser(user, hashedPassword) {

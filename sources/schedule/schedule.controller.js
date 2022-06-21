@@ -1,6 +1,11 @@
-const Schedule = require("./schedule.model");
-const Investment = require("../investment/invest.model");
-const mongoose = require("mongoose");
+//const Schedule = require("./schedule.model");
+//const Investment = require("../investment/invest.model");
+const sequelize = require("../../database/connection");
+var initModels = require("../../database/models/init-models");
+var models = initModels(sequelize);
+
+Schedule = models.schedules
+Investment = models.investments
 // const pool = require("../../db");
 // const format = require("pg-format");
 
