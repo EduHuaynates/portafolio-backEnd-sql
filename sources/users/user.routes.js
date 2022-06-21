@@ -37,16 +37,17 @@ userRouter.post(
       .userExists(newUser.username)
       .then((usuarioExiste) => {
         console.log(usuarioExiste, "usuarioExiste");
-        if (usuarioExiste) {
+        if (usuarioExiste.length > 0) {
           log.warn(`Username [${newUser.username}] ya existe en la BD`);
           throw new UsersCredencialsInUse();
         }
         return bcrypt.hash(newUser.password, 10);
       })
       .then((hash) => {
+        console.log(hash, "hash");
         return userController.createUser(newUser, hash).then((newUser) => {
-          console.log(newUser);
-          res.status(201).json(`Usuario creado ${newUser}`);
+          console.log(newUser, "newuserRoutes");
+          res.status(201).json(`Usuario creado ${newUser.dataValues.username}`);
           return newUser;
         });
       });
@@ -57,11 +58,14 @@ userRouter.post(
   "/login",
   handleError(async (req, res) => {
     let userNotAuthenticated = req.body;
-    let userRegistered = await userController.getSingleUser({
-      username: userNotAuthenticated.username,
-    });
+    let userRegistered = (
+      await userController.getSingleUser({
+        username: userNotAuthenticated.username,
+      })
+    )[0];
+    console.log(userRegistered.password, "userRegistered");
     if (!userRegistered) {
-      log.info(`Usuario ${userNotAuthenticated.username} no existe.
+      log.info(`Usuario ${userNotAuthenticated} no existe.
     No pudo ser autenticado`);
       throw new IncorrectCredencials();
     }
@@ -70,7 +74,7 @@ userRouter.post(
       userNotAuthenticated.password,
       userRegistered.password
     );
-
+    console.log(correctPassword, "correctPassword");
     if (correctPassword) {
       let token = createToken(userRegistered.id);
       log.info(
@@ -104,7 +108,7 @@ function hideUserFields(user) {
 
 userRouter.get(
   "/:_id/investments",
-  [jwtAuthenticate],
+  // [jwtAuthenticate],
   handleError((req, res) => {
     console.log(req.query.user, "params");
     return investController.getInvest(req.params._id).then((is) => {
@@ -115,7 +119,7 @@ userRouter.get(
 
 userRouter.get(
   "/:id/total-invested",
-  [jwtAuthenticate],
+  // [jwtAuthenticate],
   handleError((req, res) => {
     console.log(req.params.id, "gettotalId");
     return investController.getCapitalPerUser(req.params.id).then((tot) => {
@@ -126,7 +130,7 @@ userRouter.get(
 
 userRouter.get(
   "/:id/schedules",
-  [jwtAuthenticate],
+  // [jwtAuthenticate],
   handleError((req, res) => {
     console.log(req.params.id, "gettotalId");
     return scheduleController.getUserSchedules(req.params.id).then((sch) => {

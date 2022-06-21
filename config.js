@@ -11,6 +11,8 @@ const dev = {
     host: process.env.DEV_DB_HOST || "localhost",
     port: process.env.DEV_DB_PORT || "27017",
     name: process.env.DEV_DB_NAME || "qlik-app",
+    user: process.env.DEV_DB_USER || "qlik-app",
+    password: process.env.DEV_DB_PASSWORD || "qlik-app",
   },
   jwt: {
     secreto: "esteesmisecretito",

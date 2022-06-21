@@ -1,56 +1,105 @@
-const mongoose = require("mongoose");
-const ObjectId = mongoose.Schema.Types.ObjectId;
+const { DataTypes } = require("sequelize");
+const sequelize = require("../../database/connection");
 
-const scheduleSchema = new mongoose.Schema(
+const schedule = sequelize.define(
+  "schedule",
   {
-    // userId: {
-    //   type: ObjectId,
-    //   required: true,
-    // },
-    // investmentId: {
-    //   type: ObjectId,
-    //   //required: true,
-    //   ref: "investment",
-    // },
+    id: {
+      primaryKey: true,
+      type: DataTypes.INTEGER,
+      // type: DataTypes.UUIDV4,
+      autoIncrement: true,
+    },
     periodo: {
-      type: Number,
-      require: true,
+      type: DataTypes.DECIMAL,
+      allowNull: false,
     },
-    capitalRetornado: {
-      type: Number,
-      require: true,
+    capital_retornado: {
+      type: DataTypes.DECIMAL,
+      allowNull: false,
     },
-    interesRetornado: {
-      type: Number,
-      require: true,
+    interes_retornado: {
+      type: DataTypes.DECIMAL,
+      allowNull: false,
     },
     cuota: {
-      type: Number,
-      require: true,
+      type: DataTypes.DECIMAL,
+      allowNull: false,
     },
     saldo: {
-      type: Number,
-      require: true,
+      type: DataTypes.DECIMAL,
+      allowNull: false,
     },
-    status: {
-      type: String,
-      require: true,
+    estado: {
+      type: DataTypes.STRING,
+      allowNull: false,
     },
-    fechaPago: {
-      type: String,
-      require: true,
-    },
-    comentarios: {
-      type: [Object],
-    },
-    voucher: {
-      type: [Object],
-      require: true,
+    fecha_pago: {
+      type: DataTypes.DATEONLY,
+      allowNull: false,
     },
   },
+  { timestamps: true },
   {
-    timestamps: { createdAt: "createdAt", updatedAt: "updatedAt" },
+    tableName: "schedules",
   }
 );
 
-module.exports = mongoose.model("schedule", scheduleSchema);
+module.exports = schedule;
+
+// const mongoose = require("mongoose");
+// const ObjectId = mongoose.Schema.Types.ObjectId;
+
+// const scheduleSchema = new mongoose.Schema(
+//   {
+//     // userId: {
+//     //   type: ObjectId,
+//     //   required: true,
+//     // },
+//     // investmentId: {
+//     //   type: ObjectId,
+//     //   //required: true,
+//     //   ref: "investment",
+//     // },
+//     periodo: {
+//       type: Number,
+//       require: true,
+//     },
+//     capitalRetornado: {
+//       type: Number,
+//       require: true,
+//     },
+//     interesRetornado: {
+//       type: Number,
+//       require: true,
+//     },
+//     cuota: {
+//       type: Number,
+//       require: true,
+//     },
+//     saldo: {
+//       type: Number,
+//       require: true,
+//     },
+//     status: {
+//       type: String,
+//       require: true,
+//     },
+//     fechaPago: {
+//       type: String,
+//       require: true,
+//     },
+//     comentarios: {
+//       type: [Object],
+//     },
+//     voucher: {
+//       type: [Object],
+//       require: true,
+//     },
+//   },
+//   {
+//     timestamps: { createdAt: "createdAt", updatedAt: "updatedAt" },
+//   }
+// );
+
+// module.exports = mongoose.model("schedule", scheduleSchema);

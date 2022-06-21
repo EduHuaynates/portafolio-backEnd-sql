@@ -1,9 +1,11 @@
 const express = require("express");
 require("dotenv").config();
 const config = require("./config");
+const sequelize = require("./database/connection");
 const mongoose = require("mongoose");
 const cors = require("cors");
 const app = express();
+require("./database/associations");
 
 //ROUTES
 const UserRouter = require("./sources/users/user.routes");
@@ -19,7 +21,6 @@ const passport = require("passport");
 const authJWT = require("./libs/auth");
 const errorHandler = require("./libs/errorHandler");
 
-
 app.use(cors());
 dbPort = config.db.port;
 dbHost = config.db.host;
@@ -28,6 +29,15 @@ dbURL = config.url.mongo_connect;
 appURL = config.server.port;
 
 passport.use(authJWT);
+
+// async function connect_to_sql() {
+//   try {
+//     await connection.sequelize.authenticate();
+//     console.log("Success");
+//   } catch (error) {
+//     console.log("Error");
+//   }
+// }
 
 app.use(
   morgan("short", {
@@ -54,4 +64,16 @@ app.use(errorHandler.erroresEnProducción);
 
 app.listen(process.env.PORT || 3001, () => {
   console.log("Servidor corriendo en el puerto 3k");
+
+  sequelize
+    .sync()
+    // .authenticate()
+    .then(() => {
+      console.log("Success");
+    })
+    .catch((err) => {
+      console.log(err, "Error de conexion");
+    });
 });
+
+// connect_to_sql();

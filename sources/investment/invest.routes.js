@@ -9,21 +9,21 @@ const config = require("../../config");
 const passport = require("passport");
 const jwtAuthenticate = passport.authenticate("jwt", { session: false });
 
+//CREA UNA NUEVA INVERSION
 investRouter.post(
   "/creation",
-  [jwtAuthenticate],
+  // [jwtAuthenticate],
   handleError((req, res) => {
-    return investController
-      .createInvest(req.body)
-      .then((post) => {
-        res.status(201).json(post);
-      });
+    return investController.createInvest(req.body[0],req.body[1]).then((invest) => {
+      res.status(201).json(invest);
+    });
   })
 );
 
+//ELIMINA UNA INVERSION
 investRouter.delete(
   "/:id/delete",
-  [jwtAuthenticate],
+  // [jwtAuthenticate],
   handleError((req, res) => {
     return investController
       .deleteInvest(req.params.id)
@@ -31,11 +31,12 @@ investRouter.delete(
         res.status(201).json(investDeleted);
       });
   })
-  );
+);
 
+//ACTUALIZA UNA INVERSION
 investRouter.put(
   "/:id/update",
-  [jwtAuthenticate],
+  // [jwtAuthenticate],
   handleError((req, res) => {
     // const { _id, ...others } = req.body;
     console.log(req.body, "put log");
@@ -47,10 +48,12 @@ investRouter.put(
   })
 );
 
+//CREA UN CRONOGRAMA PARA UNA INVERSION
 investRouter.post(
   "/:id/schedule/creation",
-  [jwtAuthenticate],
+  // [jwtAuthenticate],
   handleError((req, res) => {
+    console.log(req.body, "req.body");
     return scheduleController
       .createSchedule(req.params.id, req.body)
       .then((sch) => {
@@ -59,6 +62,7 @@ investRouter.post(
   })
 );
 
+//OBTIENE EL CRONOGRAMA DE UNA INVERSION
 investRouter.get(
   "/:id/schedule",
   // [jwtAuthenticate],
